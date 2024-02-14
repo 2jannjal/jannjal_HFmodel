@@ -30,7 +30,7 @@ with container:
         selected_model_from_select = st.selectbox("Please Select a Model", options= model_options)
 
 
-
+### Submit button to call the function return score
 sub_button = st.button("Submit")
 
 if sub_button:
