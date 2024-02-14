@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "comparison-app"
+version = "0.1.0"
+description = ""
+authors = ["2jannjal <2jannjal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+pandas = "^2.2.0"
+make = "^0.1.6.post2"
+transformers = "^4.37.2"
+scipy = "^1.12.0"
+torch = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
